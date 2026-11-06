@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface font-sans text-on-surface antialiased;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    line-height: 1.2;
+  }
+}
